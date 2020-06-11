@@ -97,3 +97,12 @@ Th serde in our case accepts json through the jackson object mapper.
 
 ```
 
+Now we can update the same in runner class where we need to mention the serialization method.
+```java
+Properties properties = new Properties();
+        properties.put(ProducerConfig.CLIENT_ID_CONFIG, AppConfigs.applicationID);
+        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, AppConfigs.bootstrapServers);
+        properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+        properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
+```
+Initialize KafkaProducer and  we can send data as a producer record.
