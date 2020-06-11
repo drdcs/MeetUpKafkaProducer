@@ -10,7 +10,7 @@
 
 Bring out the Json as mentioned below and paste: http://www.jsonschema2pojo.org/
 
-![JSON POJO CONVERTER](/Users/dadsh/Desktop/TEST.png)
+![JSON POJO CONVERTER](/Users/dadsh/Desktop/test.png)
 
 ```json
 {
