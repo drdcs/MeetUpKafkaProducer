@@ -10,8 +10,6 @@
 
 Bring out the Json as mentioned below and paste: http://www.jsonschema2pojo.org/
 
-![JSON POJO CONVERTER](/images/test.png)
-
 ```json
 {
   "venue": {
@@ -85,5 +83,17 @@ Bring out the Json as mentioned below and paste: http://www.jsonschema2pojo.org/
     "group_lat": 29.48
   }
 }
+```
+>> We can see the above json would have child json, Array (which bring down to new classes ) and pass as a class object to the main class MeetUp.This is one of the easiest way to write the Jackson to Pojo.
+
+ 
+![JSON POJO CONVERTER](/images/test.png)
+
+
+### Json Serialization
+```text
+The Producer API allows applications to send streams of data to topics in the Kafka cluster.Here we are using a json serializer which is same for all json type SerDe.
+Th serde in our case accepts json through the jackson object mapper.
+
 ```
 
