@@ -6,6 +6,11 @@
 * Leverage JSON serializer.
 * Kafka Producer(java) build.
 
+### Building a Json to Pojo
+
+Bring out the Json as mentioned below and paste: http://www.jsonschema2pojo.org/
+
+![JSON POJO CONVERTER](/Users/dadsh/Desktop/TETS.png)
 
 ```json
 {
