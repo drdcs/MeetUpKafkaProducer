@@ -2,9 +2,9 @@
 
 ## What will you Learn ?
 
-*Buiding a Json to Pojo.
-*Leverage JSON serializer.
-*Kafka Producer(java) build.
+* Buiding a Json to Pojo.
+* Leverage JSON serializer.
+* Kafka Producer(java) build.
 
 
 ```json
